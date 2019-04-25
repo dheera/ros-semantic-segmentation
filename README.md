@@ -2,9 +2,9 @@
 
 ROS package to segment the driveable area of a road. Agnostic to model and deep learning framework.
 
-One TensorFlow (1.13) based sample model is provided. You can follow the examples to add models using other architectures or frameworks.
+One TensorFlow (1.13) based sample model is provided. You can follow the example to add models using other architectures or frameworks.
 
-* **mnv2_bdd100k_driveable_513** -- Deeplab V3+ on a MobileNet v2 backbone, trained on BDD100K driveable area, 513x513 input size (slower).
+* **mnv2_bdd100k_driveable_513** -- Deeplab V3+ on a MobileNet v2 backbone, trained on BDD100K driveable area, 513x513 input size.
 
 ![screenshot](/screenshot.gif?raw=true "screenshot")
 
