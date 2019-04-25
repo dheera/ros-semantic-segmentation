@@ -11,8 +11,7 @@ from tensorflow.python.client import timeline
 PATH = os.path.dirname(__file__)
 MODEL_FILENAME = "graph.pb"
 CATEGORIES_FILENAME = "categories.json"
-INPUT_WIDTH = 321
-INPUT_HEIGHT = 321
+INPUT_SIZE = 513
 INPUT_TENSOR_NAME = "ImageTensor:0"
 OUTPUT_TENSOR_NAME = "SemanticPredictions:0"
 
@@ -62,10 +61,10 @@ class Model(object):
 
     def infer(self, images):
         for i in range(len(images)):
-          if images[i].shape != (INPUT_WIDTH, INPUT_HEIGHT, 3):
+          if images[i].shape != (INPUT_SIZE, INPUT_SIZE, 3):
             images[i] = cv2.resize(
               images[i],
-              (INPUT_WIDTH, INPUT_HEIGHT),
+              (INPUT_SIZE, INPUT_SIZE),
               interpolation = cv2.INTER_NEAREST
             )
 
