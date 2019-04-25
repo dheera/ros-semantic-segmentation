@@ -1,0 +1,14 @@
+[
+    {
+        "color": [ 0, 0, 0 ],
+        "name": "background"
+    },
+    {
+        "color": [ 255, 0, 0 ],
+        "name": "driveable"
+    },
+    {
+        "color": [ 0, 127, 255 ],
+        "name": "driveable_alt"
+    }
+]
