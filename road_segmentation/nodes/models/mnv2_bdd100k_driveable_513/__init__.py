@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-import cv2
 import json
 import os
 import numpy as np
@@ -60,14 +59,6 @@ class Model(object):
         return self._categories
 
     def infer(self, images):
-        for i in range(len(images)):
-          if images[i].shape != (INPUT_SIZE, INPUT_SIZE, 3):
-            images[i] = cv2.resize(
-              images[i],
-              (INPUT_SIZE, INPUT_SIZE),
-              interpolation = cv2.INTER_NEAREST
-            )
-
         seg_maps = self.session.run(
             OUTPUT_TENSOR_NAME,
             options = self.run_options,
