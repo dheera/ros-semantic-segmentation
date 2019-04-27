@@ -2,6 +2,8 @@
 
 ROS package to segment the driveable area of a road. Agnostic to model and deep learning framework.
 
+Two models are provided. You can add more by following the examples.
+
 * **mnv2_bdd100k_driveable_513** -- TensorFlow >= 1.11, Deeplab V3+ on a MobileNet v2 backbone, trained on BDD100K driveable area, 513x513 input size.
 * **espnetv2_bdd100k_driveable** -- PyTorch, ESPNETv2 on BDD100K driveable area, 1024x512 input size, scale 1.0.
 
