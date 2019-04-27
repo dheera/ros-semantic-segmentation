@@ -1,6 +1,6 @@
 from torch.nn import init
 import torch.nn.functional as F
-from cnn.cnn_utils import *
+from .cnn_utils import *
 import math
 import torch
 

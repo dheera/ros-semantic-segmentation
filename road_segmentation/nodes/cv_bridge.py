@@ -53,10 +53,10 @@ def cv2_to_imgmsg(cv2img, encoding='bgr8'):
     """
 
     msg = Image()
-    msg.width = cv2img.shape[0]
-    msg.height = cv2img.shape[1]
+    msg.width = cv2img.shape[1]
+    msg.height = cv2img.shape[0]
     msg.encoding = encoding
-    msg.step = BPP[encoding]*cv2img.shape[0]
+    msg.step = BPP[encoding]*cv2img.shape[1]
     msg.data = numpy.ascontiguousarray(cv2img).tobytes()
 
     return msg

@@ -6,10 +6,10 @@ __maintainer__ = "Sachin Mehta"
 import torch
 from torch import nn
 
-from cnn.Model import EESPNet, EESP
+from .Model import EESPNet, EESP
 import os
 import torch.nn.functional as F
-from cnn.cnn_utils import *
+from .cnn_utils import *
 
 class EESPNet_Seg(nn.Module):
     def __init__(self, classes=20, s=1, pretrained=None, gpus=1):
