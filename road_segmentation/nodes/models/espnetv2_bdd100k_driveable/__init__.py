@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-import cv2
 import json
 import os
 import numpy as np
@@ -58,7 +57,7 @@ class Model(object):
 
         img = images[0]
         img = img.astype(np.float32)
-        img = cv2.resize(img, (INPUT_WIDTH, INPUT_HEIGHT))
+        img = resize(img, (INPUT_WIDTH, INPUT_HEIGHT))
         img -= MEAN
         img /= STD
 
