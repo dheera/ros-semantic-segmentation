@@ -6,6 +6,7 @@ import numpy as np
 import time
 import torch
 from .cnn import SegmentationModel as net
+from .cv_resize import resize
 
 PATH = os.path.dirname(__file__)
 SCALE = 1.0
