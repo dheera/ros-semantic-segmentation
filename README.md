@@ -2,7 +2,7 @@
 
 A generalized semantic segmentation package for ROS that is agnostic to deep learning framework and model.
 
-Three models are provided:
+Three models are provided. All are extremely lightweight, fast models so they can be included inside the repo without asking you to download some zip file from DropBox. They are not the most accurate models. You can implement your own following the examples.
 
 **TensorFlow models**
 * **mnv2_bdd100k_driveable_513** -- TensorFlow >= 1.11, Deeplab V3+ on a MobileNet v2 backbone, trained on BDD100K driveable area, 513x513 input size.
