@@ -1,0 +1,86 @@
+[
+    {
+        "color": [ 0, 0, 0 ],
+        "name": "background"
+    },
+    {
+        "color": [ 255, 0, 0 ],
+        "name": "aeroplane"
+    },
+    {
+        "color": [ 0, 127, 255 ],
+        "name": "bicycle"
+    },
+    {
+        "color": [ 255, 127, 0 ],
+        "name": "bird"
+    },
+    {
+        "color": [ 255, 0, 127 ],
+        "name": "boat"
+    },
+    {
+        "color": [ 127, 0, 255 ],
+        "name": "bottle"
+    },
+    {
+        "color": [ 0, 255, 127 ],
+        "name": "bus"
+    },
+    {
+        "color": [ 127, 255, 0 ],
+        "name": "car"
+    },
+    {
+        "color": [ 0, 255, 0 ],
+        "name": "cat"
+    },
+    {
+        "color": [ 0, 0, 255 ],
+        "name": "chair"
+    },
+    {
+        "color": [ 255, 0, 255 ],
+        "name": "cow"
+    },
+    {
+        "color": [ 255, 255, 0 ],
+        "name": "diningtable"
+    },
+    {
+        "color": [ 0, 255, 255 ],
+        "name": "dog"
+    },
+    {
+        "color": [ 255, 127, 255 ],
+        "name": "horse"
+    },
+    {
+        "color": [ 255, 255, 127 ],
+        "name": "motorbike"
+    },
+    {
+        "color": [ 127, 255, 255 ],
+        "name": "person"
+    },
+    {
+        "color": [ 127, 63, 0 ],
+        "name": "pottedplant"
+    },
+    {
+        "color": [ 255, 255, 255 ],
+        "name": "sheep"
+    },
+    {
+        "color": [ 63, 127, 0 ],
+        "name": "sofa"
+    },
+    {
+        "color": [ 0, 63, 127 ],
+        "name": "train"
+    },
+    {
+        "color": [ 0, 127, 63 ],
+        "name": "tvmonitor"
+    }
+]
