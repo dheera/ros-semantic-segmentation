@@ -17,7 +17,7 @@ To implement another model, you can follow these examples. You need to create a 
 
 ## Parameters:
 
-* **model** (string) -- name of the model to use. Defaults to "mnv2_bdd100k_driveable_321".
+* **model** (string) -- name of the model to use. Defaults to "mnv2_bdd100k_driveable_513".
 * **rate** (float) -- the maximum frame rate to run inferences. Default to 30.0. Note that if your system is too slow, it will run at the maximum speed possible while dropping frames.
 * **topic_image** (string) -- topic to listen for images. Defaults to "image_raw".
 * **topic_semantic** (string) -- topic to output semantic predictions. Defaults to "semantic". Outputs a mono8 image indicating semantic classes at each pixel.
