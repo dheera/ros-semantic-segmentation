@@ -1,11 +1,13 @@
-# ros-road-segmentation
+# ros-semantic-segmentation
 
-ROS package to segment the driveable area of a road. Agnostic to model and deep learning framework.
+A generalized semantic segmentation package for ROS that is agnostic to deep learning framework and model.
 
-Two models are provided. You can add more by following the examples.
+Two models are provided, both of which segment the driveable area of the road. One is implemented in TensorFlow and the other in PyTorch.
 
 * **mnv2_bdd100k_driveable_513** -- TensorFlow >= 1.11, Deeplab V3+ on a MobileNet v2 backbone, trained on BDD100K driveable area, 513x513 input size.
 * **espnetv2_bdd100k_driveable** -- PyTorch, ESPNETv2 on BDD100K driveable area, 1024x512 input size, scale 1.0.
+
+To implement another model, you can follow these examples. You need to create a new directory under models and have a class called Model inside __init__.py that implements infer().
 
 ![screenshot](/screenshot.gif?raw=true "screenshot")
 

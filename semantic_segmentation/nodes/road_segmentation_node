@@ -12,7 +12,7 @@ on_image.last_image = None
 if __name__ == "__main__":
     rospy.init_node('road_segmentation_node')
 
-    MODEL = rospy.get_param('~model', 'mnv2_bdd100k_driveable_513')
+    MODEL = rospy.get_param('~model', 'espnetv2_bdd100k_driveable') #mnv2_bdd100k_driveable_513')
     TOPIC_IMAGE = rospy.get_param('~topic_image', 'image_raw')
     TOPIC_SEMANTIC = rospy.get_param('~topic_semantic', 'semantic')
     TOPIC_SEMANTIC_COLOR = rospy.get_param('~topic_semantic_color', 'semantic_color')

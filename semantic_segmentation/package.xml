@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package>
-  <name>road_segmentation</name>
+  <name>semantic_segmentation</name>
   <version>0.0.0</version>
-  <description>Road segmentation</description>
+  <description>Semantic segmentation</description>
 
   <maintainer email="dheera@dheera.net">dheera</maintainer>
 
