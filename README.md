@@ -15,6 +15,10 @@ To implement another model, you can follow these examples. You need to create a 
 
 ![screenshot](/screenshot.gif?raw=true "screenshot")
 
+## Try it
+
+```rosrun semantic_segmentation segmentation_node __ns:=/camera```
+
 ## Parameters:
 
 * **model** (string) -- name of the model to use. Defaults to "mnv2_bdd100k_driveable_513".

@@ -17,7 +17,7 @@ include_directories(
 )
 
 catkin_install_python(PROGRAMS
-  nodes/road_segmentation_node
+  nodes/segmentation_node
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
