@@ -1,0 +1,67 @@
+[
+    {
+        "color": [ 0, 0, 0 ],
+        "name": "background",
+        "sources": {}
+    },
+    {
+        "color": [ 255, 0, 0 ],
+        "name": "person",
+        "sources": { "coco2017": [ 1 ] }
+    },
+    {
+        "color": [ 0, 255, 0 ],
+        "name": "bicycle",
+        "sources": { "coco2017": [ 2 ] }
+    },
+    {
+        "color": [ 0, 127, 255 ],
+        "name": "car",
+        "sources": { "coco2017": [ 3 ] }
+    },
+    {
+        "color": [ 0, 255, 255 ],
+        "name": "motorcycle",
+        "sources": { "coco2017": [ 4 ] }
+    },
+    {
+        "color": [ 0, 255, 127 ],
+        "name": "bus",
+        "sources": { "coco2017": [ 6 ] }
+    },
+    {
+        "color": [ 0, 127, 127 ],
+        "name": "train",
+        "sources": { "coco2017": [ 7 ] }
+    },
+    {
+        "color": [ 127, 255, 255 ],
+        "name": "truck",
+        "sources": { "coco2017": [ 8 ] }
+    },
+    {
+        "color": [ 255, 255, 0 ],
+        "name": "traffic_light",
+        "sources": { "coco2017": [ 10 ] }
+    },
+    {
+        "color": [ 255, 127, 0 ],
+        "name": "stop_sign",
+        "sources": { "coco2017": [ 13 ] }
+    },
+    {
+        "color": [ 191, 191, 0 ],
+        "name": "pavement",
+        "sources": { "coco2017": [ 140 ] }
+    },
+    {
+        "color": [ 191, 191, 191 ],
+        "name": "railroad",
+        "sources": { "coco2017": [ 147 ] }
+    },
+    {
+        "color": [ 127, 0, 127 ],
+        "name": "road",
+        "sources": { "coco2017": [ 149 ] }
+    }
+]

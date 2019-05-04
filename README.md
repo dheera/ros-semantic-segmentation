@@ -6,6 +6,7 @@ Three models are provided. All are extremely lightweight, fast models so they ca
 
 **TensorFlow models**
 * **mnv2_bdd100k_driveable_513** -- TensorFlow >= 1.11, Deeplab V3+ on a MobileNet v2 backbone, trained on BDD100K driveable area, 513x513 input size.
+* **mnv2_coco2017_driving** -- TensorFlow >= 1.11, Deeplab V3+ on a subset of 13 COCO2017 classes related to driving
 * **mnv2_dm05_voc** -- TensorFlow >= 1.11, Deeplab V3+ on VOC 2012 classes (pretrained Google model mnv2_dm05_coco_voc_trainaug).
 
 **PyTorch models**
