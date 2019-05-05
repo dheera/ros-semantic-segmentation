@@ -15,6 +15,7 @@ Three models are provided. All are extremely lightweight, fast models so they ca
 To implement another model, you can follow these examples. You need to create a new directory under models and have a class called Model inside __init__.py that implements infer().
 
 ![screenshot](/screenshot.gif?raw=true "screenshot")
+![screenshot1](/screenshot1.gif?raw=true "screenshot1")
 
 ## Try it
 
